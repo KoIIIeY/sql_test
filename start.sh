@@ -1,0 +1,1 @@
+docker run -it --rm --name my-running-script -v "/C/Users/pavel/Downloads/FpDbTest-v2/FpDbTest:/usr/src/myapp" -w "/usr/src/myapp" php:8.3-cli php test.php
